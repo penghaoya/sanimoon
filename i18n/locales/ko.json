@@ -1,0 +1,78 @@
+{
+  "common": {
+    "viewAll": "전체보기"
+  },
+  "home": {
+    "hero": {
+      "title": "한국경제연구원",
+      "subtitle": "시장경제와 자유기업 연구의 중심"
+    },
+    "news": {
+      "title": "최신소식"
+    },
+    "trends": {
+      "title": "경제동향"
+    },
+    "activityPhotos": "행사사진"
+  },
+  "navigation": {
+    "home": "연구원 소개",
+    "about": "연구원 소개",
+    "research": "연구",
+    "news": "소통",
+    "column": "미디어와 네트워킹"
+  },
+  "header": {
+    "contact": {
+      "tel": "+82-2-3771-0001",
+      "email": {
+        "text": "infokeri.org"
+      }
+    },
+    "login": "로그인",
+    "search": "검색",
+    "language": {
+      "ko": "한국어",
+      "en": "ENG"
+    }
+  },
+  "footer": {
+    "address": {
+      "line1": "서울특별시 강남구 테헤란로 ",
+      "line2": "대한민국",
+      "tel": "전화: +82-2-1234-5678",
+      "email": "이메일 : info{'@'}sanimoon-expert.com"
+    },
+    "social": {
+      "facebook": "페이스북",
+      "twitter": "트위터",
+      "linkedin": "링크드인"
+    },
+    "about": {
+      "title": "소개",
+      "purpose": "설립목적",
+      "message": "인사말",
+      "history": "연혁",
+      "organization": "조직도",
+      "location": "오시는 길"
+    },
+    "research": {
+      "title": "연구",
+      "reports": "연구보고서",
+      "policy": "정책제안",
+      "bulletin": "연구동향"
+    },
+    "communication": {
+      "title": "소통",
+      "press": "보도자료",
+      "photos": "사진자료",
+      "column": "칼럼"
+    },
+    "copyright": " 2025 한국경제연구원. All rights reserved.",
+    "links": {
+      "privacy": "개인정보처리방침",
+      "terms": "이용약관",
+      "contact": "문의하기"
+    }
+  }
+}

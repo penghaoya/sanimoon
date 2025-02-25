@@ -1,0 +1,78 @@
+{
+  "common": {
+    "viewAll": "View All"
+  },
+  "home": {
+    "hero": {
+      "title": "Korea Economic Research Institute",
+      "subtitle": "Leading Research in Market Economy and Free Enterprise"
+    },
+    "news": {
+      "title": "Latest News"
+    },
+    "trends": {
+      "title": "Economic Trends"
+    },
+    "activityPhotos": "Event photos"
+  },
+  "navigation": {
+    "home": "Home",
+    "about": "Researcher Introduction",
+    "introduce": "Research",
+    "research": "Communication",
+    "news": "Media and Networking"
+  },
+  "header": {
+    "contact": {
+      "tel": "+82-2-3771-0001",
+      "email": {
+        "text": "infokeri.org"
+      }
+    },
+    "search": "Search",
+    "login": "Login",
+    "language": {
+      "ko": "한국어",
+      "en": "ENG"
+    }
+  },
+  "footer": {
+    "address": {
+      "line1": "20F, 83, Uisadang-daero",
+      "line2": "Yeongdeungpo-gu Seoul 07325",
+      "tel": "TEL : 02-3771-0001",
+     "email": "EMAIL: info{'@'}sanimoon-expert.com"
+    },
+    "social": {
+      "facebook": "Facebook",
+      "twitter": "Twitter",
+      "linkedin": "LinkedIn"
+    },
+    "about": {
+      "title": "About KERI",
+      "purpose": "Purpose",
+      "message": "President's Message",
+      "history": "History",
+      "organization": "Organization",
+      "location": "Location"
+    },
+    "research": {
+      "title": "Research",
+      "reports": "Research Reports",
+      "policy": "Policy Proposals",
+      "bulletin": "KERI Brief"
+    },
+    "communication": {
+      "title": "Communication",
+      "press": "Press Releases",
+      "photos": "Event Photos",
+      "column": "Column"
+    },
+    "copyright": " 2025 Korea Economic Research Institute. All rights reserved.",
+    "links": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "contact": "Contact Us"
+    }
+  }
+}
