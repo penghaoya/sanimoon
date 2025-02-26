@@ -184,25 +184,25 @@ onUnmounted(() => {
 const latestReports = [
   {
     id: 1,
-    title: '特朗普2.0时代开幕100小时与韩国经济',
+    title: '트럼프 2.0 시대 개막 100시간과 한국 경제',
     href: '#',
-    description: '分析特朗普政府政策对韩国经济的影响及应对方案',
+    description: '트럼프 정부 정책이 한국 경제에 미치는 영향 및 대응 방안 분석',
     date: '2024.01.23',
     datetime: '2024-01-23',
   },
   {
     id: 2,
-    title: '2024韩经协-彼得森国际经济研究所联合会议召开',
+    title: '2024 한경협-피터슨 국제경제연구소 공동회의 개최',
     href: '#',
-    description: '探讨全球经济趋势和韩国经济发展方向',
+    description: '글로벌 경제 동향과 한국 경제 발전 방향 탐구',
     date: '2024.11.25',
     datetime: '2024-11-25',
   },
   {
     id: 3,
-    title: 'AI革命时代的企业家精神与韩国经济再跨越研讨会',
+    title: 'AI 혁명 시대의 기업가 정신과 한국 경제 재도약 세미나',
     href: '#',
-    description: '探讨AI时代下韩国经济的发展机遇与挑战',
+    description: 'AI 시대 한국 경제의 발전 기회와 도전 과제 탐구',
     date: '2024.11.17',
     datetime: '2024-11-17',
   },
@@ -247,13 +247,13 @@ const activityPhotos = [
   {
     id: 3,
     title: 'AI 학명 시대의 기업가정신과 한국경제의 재도약',
-    imageUrl: 'https://static.wixstatic.com/media/5d637b_34be2395248849c9bc3f1fb0e294cd42~mv2.jpg/v1/fill/w_277,h_183,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/KERI%EC%BB%AC%EB%9F%BC-%EC%9E%84%EC%8B%9C-%EC%8D%B8%EB%84%A4%EC%9D%BC.jpg',
+    imageUrl: 'https://static.wixstatic.com/media/5d637b_b745d5d517d2424c9df15e3ce2f59b17~mv2.jpg/v1/fill/w_305,h_172,fp_0.50_0.50,q_90,enc_auto/5d637b_b745d5d517d2424c9df15e3ce2f59b17~mv2.webp',
     date: '2024.02.05'
   },
   {
     id: 4,
     title: '국내의 석학들이 바라본 저출산‧고령화의 영향과 해법',
-    imageUrl: 'https://static.wixstatic.com/media/5d637b_34be2395248849c9bc3f1fb0e294cd42~mv2.jpg/v1/fill/w_277,h_183,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/KERI%EC%BB%AC%EB%9F%BC-%EC%9E%84%EC%8B%9C-%EC%8D%B8%EB%84%A4%EC%9D%BC.jpg',
+    imageUrl: 'https://static.wixstatic.com/media/c00589_070fcbe32273476e950e0339b05c690a~mv2.jpg/v1/fill/w_306,h_172,fp_0.50_0.50,q_90,enc_auto/c00589_070fcbe32273476e950e0339b05c690a~mv2.webp',
     date: '2024.02.01'
   }
 ]
