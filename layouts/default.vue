@@ -74,7 +74,7 @@
           <div class="grid grid-cols-1 md:grid-cols-12 gap-8">
             <!-- Logo and Address -->
             <div class="md:col-span-4 space-y-6">
-              <img src="/images/logo.png" alt="KERI Logo" class="h-10">
+              <img src="/images/logo.png" alt="Sanimoon Logo" class="h-10">
               <div class="text-sm space-y-2 text-gray-300">
                 <p>{{ $t('footer.address.line1') }}</p>
                 <p>{{ $t('footer.address.line2') }}</p>

@@ -21,7 +21,7 @@
     "introduce": "Research",
     "research": "Communication",
     "news": "Media and Networking",
-    "column":""
+    "column": ""
   },
   "header": {
     "contact": {
@@ -42,7 +42,7 @@
       "line1": "20F, 83, Uisadang-daero",
       "line2": "Yeongdeungpo-gu Seoul 07325",
       "tel": "TEL : 02-3771-0001",
-     "email": "EMAIL: info{'@'}sanimoon-expert.com"
+      "email": "EMAIL: info{'@'}sanimoon-expert.com"
     },
     "social": {
       "facebook": "Facebook",
@@ -50,7 +50,7 @@
       "linkedin": "LinkedIn"
     },
     "about": {
-      "title": "About KERI",
+      "title": "About Sanimoon",
       "purpose": "Purpose",
       "message": "President's Message",
       "history": "History",
@@ -61,7 +61,7 @@
       "title": "Research",
       "reports": "Research Reports",
       "policy": "Policy Proposals",
-      "bulletin": "KERI Brief"
+      "bulletin": "Sanimoon Brief"
     },
     "communication": {
       "title": "Communication",
