@@ -125,7 +125,7 @@
               <h2 class="text-emerald-600 text-sm font-medium mb-1">
                 Sanimoon ECONOMIC TRENDS AND OUTLOOK
               </h2>
-              <h3 class="text-2xl font-bold">KERI 경제동향과 전망</h3>
+              <h3 class="text-2xl font-bold">Sanimoon 경제동향과 전망</h3>
             </div>
             <button
               class="w-8 h-8 rounded-full border border-emerald-600 flex items-center justify-center text-emerald-600 hover:bg-emerald-600 hover:text-white transition-colors"
@@ -215,24 +215,21 @@ import LatestReports from "~/components/home/LatestReports.vue";
 // 轮播图数据
 const slides = [
   {
-    image:
-      "https://static.wixstatic.com/media/c00589_4d80567ab2114a969066c220f896ab54~mv2.jpg/v1/fill/w_1441,h_500,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/c00589_4d80567ab2114a969066c220f896ab54~mv2.jpg",
+    image: "/public/images/new1.png",
     subtitle: "The New Leap of Korea's Economy",
     title: "한국경제의 새로운 도약을\n위해 앞장서겠습니다.",
     description:
       "한국경제연구원은 자유시장경제 이념을 바탕으로 한국경제의 발전과 기업하기 좋은 제도적 환경조성을 위한 정책과제를 종합적으로 연구합니다.",
   },
   {
-    image:
-      "https://static.wixstatic.com/media/c00589_4d80567ab2114a969066c220f896ab54~mv2.jpg/v1/fill/w_980,h_500,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/c00589_4d80567ab2114a969066c220f896ab54~mv2.jpg",
+    image: "/public/images/new2.png",
     subtitle: "Research & Policy",
     title: "연구와 정책을 통한\n미래 비전 제시",
     description:
       "경제 및 기업 관련 제도·정책에 대한 분석·평가 및 정책대안을 제시합니다.",
   },
   {
-    image:
-      "https://static.wixstatic.com/media/c00589_4d80567ab2114a969066c220f896ab54~mv2.jpg/v1/fill/w_980,h_500,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/c00589_4d80567ab2114a969066c220f896ab54~mv2.jpg",
+    image: "/public/images/new2.png",
     subtitle: "Global Network",
     title: "글로벌 네트워크\n구축",
     description:
