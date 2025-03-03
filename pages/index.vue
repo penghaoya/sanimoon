@@ -215,21 +215,24 @@ import LatestReports from "~/components/home/LatestReports.vue";
 // 轮播图数据
 const slides = [
   {
-    image: "/public/images/new1.png",
+    image:
+      "https://static.wixstatic.com/media/c00589_4d80567ab2114a969066c220f896ab54~mv2.jpg/v1/fill/w_1441,h_500,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/c00589_4d80567ab2114a969066c220f896ab54~mv2.jpg",
     subtitle: "The New Leap of Korea's Economy",
     title: "한국경제의 새로운 도약을\n위해 앞장서겠습니다.",
     description:
       "한국경제연구원은 자유시장경제 이념을 바탕으로 한국경제의 발전과 기업하기 좋은 제도적 환경조성을 위한 정책과제를 종합적으로 연구합니다.",
   },
   {
-    image: "/public/images/new2.png",
+    image:
+      "https://static.wixstatic.com/media/c00589_4d80567ab2114a969066c220f896ab54~mv2.jpg/v1/fill/w_980,h_500,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/c00589_4d80567ab2114a969066c220f896ab54~mv2.jpg",
     subtitle: "Research & Policy",
     title: "연구와 정책을 통한\n미래 비전 제시",
     description:
       "경제 및 기업 관련 제도·정책에 대한 분석·평가 및 정책대안을 제시합니다.",
   },
   {
-    image: "/public/images/new2.png",
+    image:
+      "https://static.wixstatic.com/media/c00589_4d80567ab2114a969066c220f896ab54~mv2.jpg/v1/fill/w_980,h_500,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/c00589_4d80567ab2114a969066c220f896ab54~mv2.jpg",
     subtitle: "Global Network",
     title: "글로벌 네트워크\n구축",
     description:
