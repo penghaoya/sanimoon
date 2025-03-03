@@ -15,9 +15,6 @@
         <p class="text-gray-600 mb-4">
           我们正在进行系统维护，请稍后再试。
         </p>
-        <p class="text-gray-500 text-sm">
-          我们预计将于短时间内恢复服务。
-        </p>
       </div>
     </div>
   </div>
@@ -25,4 +22,9 @@
 
 <script setup>
 const config = useRuntimeConfig();
+
+// 使用空布局，不显示导航栏和页脚
+definePageMeta({
+  layout: 'empty'
+});
 </script>
