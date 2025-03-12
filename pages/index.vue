@@ -34,9 +34,9 @@
                     leave-to-class="opacity-0 translate-y-4"
                   >
                     <div v-show="currentSlide === index">
-                      <p class="text-sm uppercase tracking-wider mb-4">
+                      <!-- <p class="text-sm uppercase tracking-wider mb-4">
                         {{ slide.subtitle }}
-                      </p>
+                      </p> -->
                       <h1
                         class="text-5xl font-bold mb-6 leading-tight whitespace-pre-line"
                       >
@@ -77,9 +77,9 @@
         <div class="bg-white rounded-lg shadow-sm p-6">
           <div class="flex justify-between items-center mb-6">
             <div>
-              <h2 class="text-emerald-600 text-sm font-medium mb-1">
+              <!-- <h2 class="text-emerald-600 text-sm font-medium mb-1">
                 NEWS RELEASE
-              </h2>
+              </h2> -->
               <h3 class="text-2xl font-bold">보도자료</h3>
             </div>
             <button
@@ -122,9 +122,9 @@
         <div class="bg-white rounded-lg shadow-sm p-6">
           <div class="flex justify-between items-center mb-6">
             <div>
-              <h2 class="text-emerald-600 text-sm font-medium mb-1">
+              <!-- <h2 class="text-emerald-600 text-sm font-medium mb-1">
                 Sanimoon ECONOMIC TRENDS AND OUTLOOK
-              </h2>
+              </h2> -->
               <h3 class="text-2xl font-bold">Sanimoon 경제동향과 전망</h3>
             </div>
             <button
@@ -172,7 +172,7 @@
         <div class="mx-auto max-w-2xl lg:max-w-none">
           <GsapAnimation animation="fadeRight">
             <h2 class="text-2xl font-bold text-gray-900 mb-8">
-              {{ $t("home.activityPhotos") }}
+              행사사진
             </h2>
           </GsapAnimation>
 
@@ -206,7 +206,6 @@
     </div>
   </div>
 </template>
-
 <script setup>
 import { ref, onMounted, onUnmounted } from "vue";
 import GsapAnimation from "~/components/GsapAnimation.vue";
@@ -215,24 +214,21 @@ import LatestReports from "~/components/home/LatestReports.vue";
 // 轮播图数据
 const slides = [
   {
-    image:
-      "https://static.wixstatic.com/media/c00589_4d80567ab2114a969066c220f896ab54~mv2.jpg/v1/fill/w_1441,h_500,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/c00589_4d80567ab2114a969066c220f896ab54~mv2.jpg",
+    image: "/images/home/slide1.jpg",
     subtitle: "The New Leap of Korea's Economy",
     title: "한국경제의 새로운 도약을\n위해 앞장서겠습니다.",
     description:
       "한국경제연구원은 자유시장경제 이념을 바탕으로 한국경제의 발전과 기업하기 좋은 제도적 환경조성을 위한 정책과제를 종합적으로 연구합니다.",
   },
   {
-    image:
-      "https://static.wixstatic.com/media/c00589_4d80567ab2114a969066c220f896ab54~mv2.jpg/v1/fill/w_980,h_500,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/c00589_4d80567ab2114a969066c220f896ab54~mv2.jpg",
+    image: "/images/home/slide2.jpg",
     subtitle: "Research & Policy",
     title: "연구와 정책을 통한\n미래 비전 제시",
     description:
       "경제 및 기업 관련 제도·정책에 대한 분석·평가 및 정책대안을 제시합니다.",
   },
   {
-    image:
-      "https://static.wixstatic.com/media/c00589_4d80567ab2114a969066c220f896ab54~mv2.jpg/v1/fill/w_980,h_500,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/c00589_4d80567ab2114a969066c220f896ab54~mv2.jpg",
+    image: "/images/home/slide3.jpg",
     subtitle: "Global Network",
     title: "글로벌 네트워크\n구축",
     description:
@@ -268,47 +264,50 @@ const latestReports = [
     title: "트럼프 2.0 시대 개막 100시간과 한국 경제",
     href: "#",
     description: "트럼프 정부 정책이 한국 경제에 미치는 영향 및 대응 방안 분석",
-    date: "2024.01.23",
-    datetime: "2024-01-23",
+    date: "2025.01.23",
+    datetime: "2025-01-23",
   },
   {
     id: 2,
-    title: "2024 한경협-피터슨 국제경제연구소 공동회의 개최",
+    title: "2025 한경협-피터슨 국제경제연구소 공동회의 개최",
     href: "#",
     description: "글로벌 경제 동향과 한국 경제 발전 방향 탐구",
-    date: "2024.11.25",
-    datetime: "2024-11-25",
+    date: "2025.02.25",
+    datetime: "2025-02-25",
   },
   {
     id: 3,
     title: "AI 혁명 시대의 기업가 정신과 한국 경제 재도약 세미나",
     href: "#",
     description: "AI 시대 한국 경제의 발전 기회와 도전 과제 탐구",
-    date: "2024.11.17",
-    datetime: "2024-11-17",
+    date: "2025.01.17",
+    datetime: "2025-01-17",
   },
 ];
 
 const trends = [
   {
-    title: "Sanimoon 경제동향과 전망-2024년 2분기 [Vol. 34-2]",
-    date: "24. 6. 14.",
+    title: "경제동향과 전망-2025년 2분기 [Vol. 34-2]",
+    date: "2025.03.04",
+    datetime: "2025-03-4",
   },
   {
-    title: "Sanimoon 경제동향과 전망-2024년 1분기 [Vol. 34-1]",
-    date: "24. 3. 15.",
+    title: "경제동향과 전망-2025년 1분기 [Vol. 34-1]",
+    date: "2025.03.15",
+    datetime: "2025-03-15",
   },
   {
-    title: "Sanimoon 경제동향과 전망-2023년 2분기 [Vol. 33-2]",
-    date: "23. 6. 30.",
+    title: "경제동향과 전망-2025년 2분기 [Vol. 33-2]",
+    date: "2025.06.30",
+    datetime: "2023-06-30",
   },
   {
-    title: "Sanimoon 경제동향과 전망-2023년 1분기 [Vol. 33-1]",
-    date: "23. 3. 31.",
+    title: "경제동향과 전망-2025년 1분기 [Vol. 33-1]",
+    date: "2025.02.15",
   },
   {
-    title: "Sanimoon 경제동향과 전망-2022년 ~ 2023년 [Vol. 32-3]",
-    date: "22. 12. 31.",
+    title: "경제동향과 전망-2024년 ~ 2025년 [Vol. 32-3]",
+    date: "2025.01.31",
   },
 ];
 
@@ -318,28 +317,29 @@ const activityPhotos = [
     title: "트럼프-2-0-시대-개막-100시간과-한국-경제",
     imageUrl:
       "https://static.wixstatic.com/media/5d637b_e372085e92684a6391dfb98960a1b63e~mv2.jpg/v1/fill/w_277,h_183,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/KERI%EC%BB%AC%EB%9F%BC-%EC%9E%84%EC%8B%9C-%EC%8D%B8%EB%84%A4%EC%9D%BC.jpg",
-    date: "2024.02.15",
+    date: "2025.02.15",
   },
   {
     id: 2,
-    title: "2024 한청학-파티손국제경제연구소 공동 캠퍼런스",
+    title: "2025 한청학-파티손국제경제연구소 공동 캠퍼런스",
     imageUrl:
       "https://static.wixstatic.com/media/5d637b_34be2395248849c9bc3f1fb0e294cd42~mv2.jpg/v1/fill/w_277,h_183,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/KERI%EC%BB%AC%EB%9F%BC-%EC%9E%84%EC%8B%9C-%EC%8D%B8%EB%84%A4%EC%9D%BC.jpg",
-    date: "2024.02.10",
+    date: "2025.02.10",
   },
   {
     id: 3,
     title: "AI 학명 시대의 기업가정신과 한국경제의 재도약",
     imageUrl:
       "https://static.wixstatic.com/media/5d637b_b745d5d517d2424c9df15e3ce2f59b17~mv2.jpg/v1/fill/w_305,h_172,fp_0.50_0.50,q_90,enc_auto/5d637b_b745d5d517d2424c9df15e3ce2f59b17~mv2.webp",
-    date: "2024.02.05",
+    date: "2025.02.05",
   },
   {
     id: 4,
     title: "국내의 석학들이 바라본 저출산‧고령화의 영향과 해법",
     imageUrl:
       "https://static.wixstatic.com/media/c00589_070fcbe32273476e950e0339b05c690a~mv2.jpg/v1/fill/w_306,h_172,fp_0.50_0.50,q_90,enc_auto/c00589_070fcbe32273476e950e0339b05c690a~mv2.webp",
-    date: "2024.02.01",
+    date: "2025.02.01",
+    datetime: "2025-02-01",
   },
 ];
 </script>

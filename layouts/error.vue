@@ -1,6 +1,7 @@
 <template>
   <div v-if="isMaintenance" class="maintenance-page">
-    <h1>🚧 维护中</h1>
+    <h1>🚧 maintenance
+    </h1>
     <p>{{ errorMessage }}</p>
   </div>
   <div v-else>
@@ -30,7 +31,7 @@ const isMaintenance = computed(() => {
 
 // 维护信息计算属性
 const errorMessage = computed(() => {
-  return config.maintenanceMessage || "网站正在维护，请稍后再试";
+  return config.maintenanceMessage || "시스템 점검 중입니다. 잠시 후 다시 시도해 주세요";
 });
 </script>
 

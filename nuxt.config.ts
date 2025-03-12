@@ -4,8 +4,9 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   runtimeConfig: {
     public: {
-      maintenanceMode: process.env.MAINTENANCE_MODE === 'true',
-      maintenanceMessage: process.env.MAINTENANCE_MESSAGE || "网站正在维护，请稍后再试",
+      maintenanceMode: process.env.MAINTENANCE_MODE === "true",
+      maintenanceMessage:
+        process.env.MAINTENANCE_MESSAGE || "시스템 점검 중입니다. 잠시 후 다시 시도해 주세요",
     },
   },
   modules: [
@@ -53,8 +54,7 @@ export default defineNuxtConfig({
         {
           hid: "description",
           name: "description",
-          content:
-            "韩国经济研究院以自由市场经济理念为基础，综合研究韩国经济发展和创造良好企业制度环境的政策课题。",
+          content: "SANIMOON",
         },
       ],
       link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
