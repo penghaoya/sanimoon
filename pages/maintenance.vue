@@ -13,7 +13,7 @@
           </svg>
         </div>
         <p class="text-gray-600 mb-4">
-          시스템 점검 중입니다. 잠시 후 다시 시도해 주세요
+          The website is currently under maintenance. Please try again later.
         </p>
       </div>
     </div>

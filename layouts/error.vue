@@ -31,7 +31,7 @@ const isMaintenance = computed(() => {
 
 // 维护信息计算属性
 const errorMessage = computed(() => {
-  return config.maintenanceMessage || "시스템 점검 중입니다. 잠시 후 다시 시도해 주세요";
+  return config.maintenanceMessage || "The website is currently under maintenance. Please try again later.";
 });
 </script>
 
